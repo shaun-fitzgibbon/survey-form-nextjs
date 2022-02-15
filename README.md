@@ -17,7 +17,7 @@ Check out the [WEBSITE](http://shauns-portfolio.netlify.app/).
 
 - Contributions are what makes the open source community such an amazing place to learn, inspire, and create.
 - Any contributions you make are **greatly appreciated**.
-- Check out our [contribution guidelines](https://github.com/shaun-fitzgibbon/survey-form-nextjs/blob/main/CONTRIBUTING.md) for more information.
+- Check out our [contribution guidelines](CONTRIBUTING.md) for more information.
 
 ## 📝 License
 

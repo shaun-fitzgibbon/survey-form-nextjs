@@ -15,23 +15,26 @@ const Home: NextPage = () => {
         <title>Survey form</title>
         <meta
           name='description'
-          content='A basic survey form designed using figma and coded using html & css for freecodecamp project'
+          content='A basic survey form designed using figma and coded using html & css then converted to use nextjs and react hook forms'
         />
-        <meta name='keywords' content='HTML5, CSS3' />
+        <meta name='keywords' content='NextJS, React, React Hook Form' />
         <meta name='author' content='Shaun Fitzgibbon' />
 
         <meta property='og:title' content='Business - Survey form' />
         <meta property='og:type' content='website' />
         <meta
           property='og:image'
-          content='//sfitzg.github.io/Survey-Form/images/screenshot.png'
+          content='//shaun-fitzgibbon.github.io/survey-form-next/images/screenshot.png'
           name='image'
         />
         <meta
           property='og:description'
           content='A basic survey form designed using figma and coded using html & css for freecodecamp project'
         />
-        <meta property='og:url' content='//sfitzg.github.io/Survey-Form/' />
+        <meta
+          property='og:url'
+          content='//shaun-fitzgibbon.github.io/survey-form-next/'
+        />
 
         <link rel='icon' href='/favicon.ico' />
       </Head>
