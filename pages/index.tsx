@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
+import { prefix } from '../Utils/prefix'
 import SurveyForm from '../components/SurveyForm'
 
 const Home: NextPage = () => {
@@ -14,7 +15,7 @@ const Home: NextPage = () => {
         <title>Survey form</title>
         <meta
           name='description'
-          content='A basic survey form designed using figma and coded using html & css then converted to use nextjs and react hook forms'
+          content='A basic survey form designed using figma and coded using html and css, then converted to use NextJS and React Hook Forms, the project also uses Github actions to deploy the static site to Github pages on commits to the Main Branch'
         />
         <meta name='keywords' content='NextJS, React, React Hook Form' />
         <meta name='author' content='Shaun Fitzgibbon' />
@@ -23,19 +24,19 @@ const Home: NextPage = () => {
         <meta property='og:type' content='website' />
         <meta
           property='og:image'
-          content='//shaun-fitzgibbon.github.io/survey-form-next/images/screenshot.png'
+          content={`/${prefix}/images/screenshot.png`}
           name='image'
         />
         <meta
           property='og:description'
-          content='A basic survey form designed using figma and coded using html & css for freecodecamp project'
+          content='A basic survey form designed using figma and coded using html and css, then converted to use NextJS and React Hook Forms, the project also uses Github actions to deploy the static site to Github pages on commits to the Main Branch'
         />
         <meta
           property='og:url'
           content='//shaun-fitzgibbon.github.io/survey-form-next/'
         />
 
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href={`${prefix}/favicon.ico`} />
       </Head>
 
       <main>
