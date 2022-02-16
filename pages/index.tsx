@@ -1,12 +1,11 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
-import styles from '../styles/Home.module.css'
 import SurveyForm from '../components/SurveyForm'
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div className='container'>
       <Head>
         <meta charSet='UTF-8' />
         <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
@@ -39,7 +38,7 @@ const Home: NextPage = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main className={styles.main}>
+      <main>
         <header>
           <h1 id='title' className='title'>
             Company Survey Form
