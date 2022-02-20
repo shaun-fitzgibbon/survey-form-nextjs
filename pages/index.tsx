@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
-import { prefix } from '../Utils/prefix'
+import { prefix } from '../utils/prefix'
 import SurveyForm from '../components/SurveyForm'
 
 const Home: NextPage = () => {
@@ -24,7 +24,7 @@ const Home: NextPage = () => {
         <meta property='og:type' content='website' />
         <meta
           property='og:image'
-          content={`/${prefix}/images/screenshot.png`}
+          content={`${prefix}/images/screenshot.png`}
           name='image'
         />
         <meta
