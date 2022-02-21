@@ -42,9 +42,9 @@ const Home: NextPage = () => {
       <main>
         <header>
           <p>
-            PLEASE NOTE - This form is for example purposed only, submiting the
-            form will display an alert with the information submitted, showing
-            that I have an understanding for how forms work, this information
+            PLEASE NOTE - This form is for example purposes only, submitting the
+            form will display an alert with the information submitted,
+            demonstrating that I have an understanding for how forms work, this
             could then be used for many other purposes not displayed here. eg
             Submitting to a Database, Netlify Forms ...etc
           </p>
